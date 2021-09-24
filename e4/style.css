@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Slabo+13px&display=swap');
+
+*{ background-color: black; }
+
+h1 {
+color: white;
+font-family: 'Slabo 13px', serif;
+    font-size:  60px;
+text-align:center; 
+}
+
+
+h2 {
+color: grey;
+font-family: 'Slabo 13px', serif;
+    font-size:  30px;
+text-align:center; 
+text-transform: capitalize;
+}
+
+p {
+color: white;
+font-family: 'Slabo 13px', serif;
+    font-size:  40px;
+text-align:center; 
+}
+
+
+#container {
+padding: 10vh;
+display:block;
+border:  solid;
+border-color: white;}
+
+#photo1 {
+background: url('1.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo2 {
+background: url('Opener.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo3 {
+background: url('matty.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo4 {
+background: url('Demi2.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo5 {
+background: url('demi1.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo6 {
+background: url('cars.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo7 {
+background: url('Onair.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo8 {
+background: url('NickGiovanni.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+
+
+
+
