@@ -1,36 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
-*{ background-color: black; }
+*{ background-color: blUE; }
 
 h1 {
 color: white;
-font-family: 'Slabo 13px', serif;
+font-family: 'Roboto Mono', monospace;
     font-size:  60px;
-text-align:center; 
 }
 
 
 h2 {
 color: grey;
-font-family: 'Slabo 13px', serif;
-    font-size:  30px;
-text-align:center; 
+font-family: 'Roboto Mono', monospace;
+    font-size:  20px;
 text-transform: capitalize;
 }
 
 p {
 color: white;
-font-family: 'Slabo 13px', serif;
+font-family: 'Roboto Mono', monospace;
     font-size:  40px;
-text-align:center; 
 }
 
 
 #container {
-padding: 10vh;
+padding-top: 10vh;
+padding-bottom: 10vh;
+padding-left: 40vh;
+padding-right: 40vh;
 display:block;
-border:  solid;
-border-color: white;}
+}
 
 #photo1 {
 background: url('1.png') no-repeat center fixed;     
