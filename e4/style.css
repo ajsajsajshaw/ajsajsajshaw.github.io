@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
-*{ background-color: blUE; }
+*{ background-color: #CD9836; }
 
 h1 {
-color: white;
+color: black;
 font-family: 'Roboto Mono', monospace;
     font-size:  60px;
 }
 
 
 h2 {
-color: grey;
-font-family: 'Roboto Mono', monospace;
+color: #3F3F3F;
+font-family: 'Cutive Mono', monospace;
     font-size:  20px;
 text-transform: capitalize;
 }
 
 p {
-color: white;
-font-family: 'Roboto Mono', monospace;
+color: black;
+font-family: 'Cutive Mono', monospace;
     font-size:  40px;
 }
 
