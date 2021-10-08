@@ -26,7 +26,7 @@ font-family: 'Libre Franklin', sans-serif;
 h3 {
 color: black;
 font-family: 'Libre Franklin', sans-serif;
-    font-size:  12px;
+    font-size:  14px;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -150,26 +150,27 @@ vertical-align:middle;
     padding-right: 5vw;
     display:block;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+}  
 
 #divider{
     background-color: white;
     width:  90vw;
-    opacity: .8;
    /* height: 2vh;*/
 }
 
 #Title{
-    background-color: lightblue;
+    background-color: #FAF0CA;
     width: 80vw;
-    height: 50vh;
     margin-top: 5vh;
     margin-left: 5vw;
 }
 #subtitle{
     width: 80vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-left: 5vw;
-    opacity: .8;
 /*        padding-top: 1vw;
     padding-bottom: 1vw;
     padding-left: 3vw;
