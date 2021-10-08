@@ -2,37 +2,37 @@
 
 
 *{background: tomato;
-display: inline-block;
+display: block;
 }
 
+#navigation {
+
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+ /* position:fixed;*/
+  background-color:transparent;
+   font-family: helvetica;
+   letter-spacing: 45px;
+    border: 1px solid black;
+ }
 
 #header {
     width: 100vw;
     height: 30vh;
     background: transparent;
+        border: 1px solid black;
 }
 
-@keyframes motion {
-  0% {
-    transform: translate(-1200px, 0);
-}
-
-100% {
-transform: translate(0,0);;
-}
-}
+/*@keyframes motion {
+  0% {transform: translate(-1200px, 0);}
+  100% {transform: translate(0,0);;}
+}*/
 
 @keyframes opacity {
-0% {
-  opacity: 0;
+  0% {opacity: 0;}
+  100%{ opacity: 1;}
 }
-100{
-  opacity: 1;
-}
-
-}
-
-
 
 p{
 font-size: 60px;
@@ -41,47 +41,17 @@ font-style: italic;
 background: transparent;
 text-align: left;
 color: black;
-transform: translate(-370px,0);
+border: 1px solid black;}
 
-/*animation-name: motion;
-animation-duration: 2s;
-animation-timing-function: ease-in;
-animation-delay: 0s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: none;*/
+.Ncontainer {
+  width: 100vw;
+  height: 60vh;
+  border: 10px solid black;
+  display: inline;
+
 }
 
-span{
- /* font-size: 120px;
-  font-family: helvetica;*/
-  /*transform: rotate(10deg);*/
-  background: transparent;
-  animation-name: motion;
-  color: black;
-  line-height: 2;
-/*animation-duration: 1s;
-animation-timing-function: ease-in;
-animation-delay: 0s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: none;
-*/
-
-/*  animation-name: motion;
-animation-duration: 2s;
-animation-timing-function: ease-in-out;
-animation-delay: 0s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both;*/
-}
-
-
-#container {
+.Ncontainer #container {
 
 padding-top: 40px;
 width: 250px;
@@ -90,13 +60,13 @@ padding-bottom: 40px;
 border:  solid;
 border-color: transparent;
 border-radius: 40px;
+overflow: hidden;
+ border: 1px solid black;
 
 transition-property: all;
 transition-duration: 800ms;
 transition-timing-function: ease-in-out;
 transition-delay:  0;
-
-
 
 animation-name: opacity;
 animation-duration: 1s;
@@ -106,8 +76,6 @@ animation-iteration-count: 1;
 animation-direction: normal;
 animation-play-state: running;
 animation-fill-mode: both; 
-
-
 }
 
 #container:hover {
@@ -117,24 +85,7 @@ animation-fill-mode: both;
     cursor: pointer;
 }
 
-/*@keyframes scale {
-  0%, {
-    transform: position(-150,-180);
-  }
-  
-  50% {
-    transform: scale(300,-280);
-  }
-
-  80% {transform: scale(2);}
-  
-  100% {
-    transform: position(0,0);
-  }
-}
-*/
-
-#container2 {
+.Ncontainer #container2 {
 
 padding-top: 40px;
 width: 250px;
@@ -143,6 +94,7 @@ padding-bottom: 40px;
 border:  solid;
 border-color: transparent;
 border-radius: 40px;
+overflow: hidden;
 
 animation-name: opacity;
 animation-duration: 1s;
@@ -198,7 +150,7 @@ animation-play-state: running;*/
     background-color: yellow;
   }*/
 
-#container3 {
+.Ncontainer #container3 {
 
 padding-top: 40px;
 width: 250px;
@@ -207,6 +159,7 @@ padding-bottom: 40px;
 border:  solid;
 border-color: transparent;
 border-radius: 40px;
+overflow: hidden;
 
 transition-property: all;
 transition-duration: 800ms;
@@ -238,7 +191,7 @@ animation-fill-mode: both;  */}
     cursor: pointer;
 }
 
-#container4 {
+.Ncontainer #container4 {
 
 padding-top: 40px;
 width: 250px;
@@ -247,6 +200,7 @@ padding-bottom: 40px;
 border:  solid;
 border-color: transparent;
 border-radius: 40px;
+overflow: hidden;
 
 transition-property: all;
 transition-duration: 800ms;
@@ -261,7 +215,6 @@ animation-iteration-count: 1;
 animation-direction: normal;
 animation-play-state: running;
 animation-fill-mode: both; 
-
 /*animation-name: scale;
 animation-duration: 2s;
 animation-timing-function: ease-in-out;
@@ -279,7 +232,7 @@ animation-fill-mode: both;  */}
 
 }
 
-#container5 {
+.Ncontainer #container5 {
 
 padding-top: 40px;
 width: 240px;
@@ -288,6 +241,7 @@ padding-bottom: 40px;
 border:  solid;
 border-color: transparent;
 border-radius: 40px;
+overflow: hidden;
 
 transition-property: all;
 transition-duration: 800ms;
