@@ -153,6 +153,7 @@ vertical-align:middle;
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }  
 
 #divider{
@@ -162,7 +163,7 @@ html, body {
 }
 
 #Title{
-    background-color: #FAF0CA;
+    background-color: FAF0CA;
     width: 80vw;
     margin-top: 5vh;
     margin-left: 5vw;
