@@ -1,0 +1,317 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Libre+Franklin:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600;1,900&display=swap');
+
+*{ background-color: #white; }
+
+h1 {
+color: black;
+font-family: 'Libre Franklin', sans-serif;
+font-style: italic;
+font-weight: 300;
+    font-size:  40px;
+}
+
+
+h2 {
+color: black;
+font-family: 'Libre Franklin', sans-serif;
+    font-size:  18px;
+    font-weight: 700;
+    max-width: 60vw;
+}
+h3 {
+color: black;
+font-family: 'Libre Franklin', sans-serif;
+    font-size:  12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+p {
+
+color: black;
+font-family: 'Libre Franklin', sans-serif;
+    font-size:  40px;
+}
+
+#header {
+    color: black;
+    letter-spacing: 2px;
+font-family: 'Libre Franklin', sans-serif;
+    font-size:  14px;
+    font-weight: 600;
+text-transform: capitalize;
+
+}
+
+
+.container {
+padding-top: 10vh;
+padding-bottom: 10vh;
+padding-left: 10vw;
+padding-right: 10vw;
+/*margin: 5px;*/
+display:block;
+border: solid black 2px;
+overflow:auto;
+float: left;
+background-color: white;
+}
+
+#photo1 {
+background: url('1.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo2 {
+background: url('Opener.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo3 {
+background: url('matty.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo4 {
+background: url('Demi2.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo5 {
+background: url('demi1.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo6 {
+background: url('cars.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo7 {
+background: url('Onair.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+#photo8 {
+background: url('NickGiovanni.png') no-repeat center fixed;     
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+}
+
+@media screen and (max-width: 800px) {
+  h1 { 
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+    margin-left: 5vw;
+  }
+  .container {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display:block;
+}
+
+#divider{
+    background-color: white;
+    width:  90vw;
+    opacity: .8;
+   /* height: 2vh;*/
+}
+
+#Title{
+    background-color: lightblue;
+    width: 80vw;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+#subtitle{
+    width: 80vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    opacity: .8;
+/*        padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-right: 1vw;*/
+}
+span {
+  content: "\2193";
+}
+
+#container2{
+    background-color: powderblue;
+    width: 80vw;
+     margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+#container3{
+    background-color: lightcoral;
+    width: 80vw;
+     margin-top: 5vh;
+ /*   margin-left: 10vw;*/
+}
+
+#container4{
+    background-color: powderblue;
+    width: 80vw;
+     margin-top: 5vh;
+    margin-left: 10vw;
+}
+#container5{
+    background-color: lightcoral;
+    width: 80vw;
+     margin-top: 5vh;
+}
+#container6{
+  background-color: lightcoral;
+    width: 80vw;
+     margin-top: 5vh;
+}
+#container7{
+    background-color: powderblue;
+    width: 80vw;
+     margin-top: 5vh;
+    margin-left: 10vw;
+}
+#container8{
+    background-color: lightcoral;
+    width: 80vw;
+     margin-top: 5vh;
+}
+#container9{
+    background-color: lightblue;
+    width: 80vw;
+     margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+
+#photo1 {
+background: url('1.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo2 {
+background: url('Opener.png') no-repeat middle fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo3 {
+background: url('matty.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo4 {
+background: url('Demi2.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo5 {
+background: url('demi1.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo6 {
+background: url('cars.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo7 {
+background: url('Onair.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+#photo8 {
+background: url('NickGiovanni.png') no-repeat center fixed;     
+background-size: contain;
+width: 100vw;
+height: 100vh;
+display:block;
+vertical-align:middle;
+background-color: black;
+}
+
+
+}
+
+
+
+
+
