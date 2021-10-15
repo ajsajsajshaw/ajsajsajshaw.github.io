@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Libre+Franklin:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600;1,900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 223, 82);
+  } 
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    filter: drop-shadow(1vh 1vh black);
+    font-size: 112px;
+    text-align: center;
+    margin-bottom: 3px;
+
+    
+} 
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    color: black;
+    /* filter: drop-shadow(8px 8px black); */
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: center;
+}
+p{
+    font-family: 'Libre Franklin', sans-serif;
+    color: blue;
+    /* filter: drop-shadow(8px 8px black); */
+    font-size: 20px;
+    text-align: center;
+}
+#button{
+    background-color: blue;
+    width: 12vw;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 6px;
+    filter: drop-shadow(1vh 1vh black);
+
+
+}
+    /* background-color: blue;
+    margin-top: 2vh;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 900; */
