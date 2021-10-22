@@ -11,8 +11,8 @@ html{
 
 #container1{
 margin-top: 20vh;
-margin-left: 20vw;
-margin-right: 20vw;
+margin-left: 10vw;
+margin-right: 10vw;
 margin-bottom: 20vh;
 width: 40vw;
 position:fixed;
@@ -51,7 +51,7 @@ margin: 0;
 }
 
 #iconcontainer{
-    margin-top: 20px;
+    margin-top: 40px;
     background: transparent;
     display: inline-block;
     margin-left: -9px;
@@ -69,6 +69,8 @@ margin: 0;
     height: 15px;
     padding: 4px;
     margin: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border-radius: 10px;
     padding-left: 10px;
 
