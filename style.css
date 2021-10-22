@@ -88,6 +88,21 @@ margin: 0;
     border-radius: 10px;
     display: inline-block;
     font-family: 'AUTHENTIC Sans', Arial;
+}
 
+/*	DARK MODE STYLES GO HERE */
 
+html.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+html.darkmode #container2{
+	background: black;
+}
+html.darkmode h2{
+    color: yellow;
 }
