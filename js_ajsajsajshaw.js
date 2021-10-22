@@ -1,17 +1,27 @@
-// alert("Hello World!");
+alert("Hello World!");
 console.log("Hello avery website looks great!");
 
-$(document).ready(function(){
-    $("button").click(function(){
+$(function(){
 
-      if ($('button:contains("hide exercises")')){
-        $("p").toggle();
-        $(this).html('show exercise');
+  $('#darkmodebutton').click(function(){
+    $(this).toggle();
+  }):
+})
+
+
+
+// $(document).ready(function(){
+//     $("darkmodebutton").click(function(){
+//       $(this).toggle();
+
+//       // if ($('button:contains("hide exercises")')){
+//       //   $("p").toggle();
+//       //   $(this).html('show exercise');
       
       
 
-    });
-});
+//     });
+// });
     
-      // $("p").toggle();
-      // $("p").toggleClass('on');
+//       // $("p").toggle();
+//       // $("p").toggleClass('on');
