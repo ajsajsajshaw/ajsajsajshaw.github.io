@@ -1,52 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Libre+Franklin:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600;1,900&display=swap');
+html{
+    background-color: red;
+}
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
+         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 223, 82);
-  } 
-h1{
-    font-family: 'Libre Franklin', sans-serif;
-    color: white;
-    filter: drop-shadow(1vh 1vh black);
-    font-size: 112px;
-    text-align: center;
-    margin-bottom: 3px;
+#container1{
+margin-top: 20vh;
+margin-left: 20vw;
+margin-right: 20vw;
+margin-bottom: 20vh;
+width: 40vw;
+position:fixed;
+}
+
+#container2{
+    margin-left: 65vw;
+    margin-top: 20vh;
+    width: 20vw;
+    height: 60vh;
+    background-color: red;
+    float: left;
 
     
-} 
-body{
-    font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+    color: yellow;
+    font-family: 'AUTHENTIC Sans', Arial;
+font-weight: 80;
+font-size: 157px;
+line-height: 1;
+margin: 0;
+
+
+}
+
+h2{
     color: black;
-    /* filter: drop-shadow(8px 8px black); */
-    letter-spacing: 2px;
-    font-size: 24px;
-    text-align: center;
-}
-p{
-    font-family: 'Libre Franklin', sans-serif;
-    color: blue;
-    /* filter: drop-shadow(8px 8px black); */
-    font-size: 20px;
-    text-align: center;
-}
-#button{
-    background-color: blue;
-    width: 12vw;
-    color: white;
-    text-align: center;
-    margin: auto;
-    padding: 6px;
-    filter: drop-shadow(1vh 1vh black);
+    font-family: 'AUTHENTIC Sans', Arial;
+font-weight: 80;
+font-size: 36px;
+line-height: 1;
+margin: 0;
 
 
 }
-    /* background-color: blue;
-    margin-top: 2vh;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Libre Franklin', sans-serif;
-    color: white;
-    font-size: 30px;
-    font-weight: 900; */
+
+#iconcontainer{
+    margin-top: 20px;
+    background: transparent;
+    display: inline-block;
+    margin-left: -9px;
+
+
+}
+
+#shape{
+    background: yellow;
+    display: inline-block;
+    color: black;
+    font-family: 'AUTHENTIC Sans', Arial;
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    margin: 9px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+
+
+}
+
+#darkmodebutton{
+    background-color: black;
+    color: yellow;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'AUTHENTIC Sans', Arial;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+container1{
+    position: static;
+    display: block;
+}
+container2{
+    float: none;
+    display: block;
+    
+    margin-top: 20vh;
+    width: 20vw;
+    height: 60vh;
+
+}
+    
+}
