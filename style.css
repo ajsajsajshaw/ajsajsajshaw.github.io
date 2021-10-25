@@ -1,5 +1,5 @@
 html{
-    background-color: red;
+    background-color:tomato;
 }
 @font-face {
     font-family: 'AUTHENTIC Sans';
@@ -23,7 +23,7 @@ position:fixed;
     margin-top: 20vh;
     width: 20vw;
     height: 60vh;
-    background-color: red;
+    background-color: tomato;
     float: left;
 
     
