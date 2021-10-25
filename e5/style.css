@@ -1,342 +1,182 @@
-
-
-
-*{background: tomato;
-display: block;
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
+         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
-#navigation {
-
-  margin: auto;
-  width: 50%;
-  padding: 10px;
- /* position:fixed;*/
-  background-color:transparent;
-   font-family: helvetica;
-   letter-spacing: 45px;
-    border: 1px solid black;
- }
-
-#header {
-    width: 100vw;
-    height: 30vh;
-    background: transparent;
-        border: 1px solid black;
-}
-
-/*@keyframes motion {
-  0% {transform: translate(-1200px, 0);}
-  100% {transform: translate(0,0);;}
-}*/
-
 @keyframes opacity {
-  0% {opacity: 0;}
-  100%{ opacity: 1;}
-}
-
-p{
-font-size: 60px;
-font-family: Times, sans-serif;
-font-style: italic;
-background: transparent;
-text-align: left;
-color: black;
-border: 1px solid black;}
-
-.Ncontainer {
-  width: 100vw;
-  height: 60vh;
-  border: 10px solid black;
-  display: inline;
-
-}
-
-.Ncontainer #container {
-
-padding-top: 40px;
-width: 250px;
-height: 210px;
-padding-bottom: 40px;
-border:  solid;
-border-color: transparent;
-border-radius: 40px;
-overflow: hidden;
- border: 1px solid black;
-
-transition-property: all;
-transition-duration: 800ms;
-transition-timing-function: ease-in-out;
-transition-delay:  0;
-
-animation-name: opacity;
-animation-duration: 1s;
-animation-timing-function: ease-in-out;
-animation-delay: 1.5s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both; 
-}
-
-#container:hover {
-    background-image: url("nascar.jpeg");
-      background-repeat: repeat;
-    background-size: cover;
-    cursor: pointer;
-}
-
-.Ncontainer #container2 {
-
-padding-top: 40px;
-width: 250px;
-height: 210px;
-padding-bottom: 40px;
-border:  solid;
-border-color: transparent;
-border-radius: 40px;
-overflow: hidden;
-
-animation-name: opacity;
-animation-duration: 1s;
-animation-timing-function: ease-in-out;
-animation-delay: 1.5s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both; 
-/*
-
-transition-property: all;
-transition-duration: 800ms;
-transition-timing-function: ease-in-out;
-transition-delay:  0;
-animation-name: scale;
-animation-duration: 2s;
-animation-timing-function: ease-in-out;
-animation-delay: 1s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both;  */
-*/
-/*animation-name: stretch;
-animation-duration: 1.5s; 
-animation-timing-function: ease-out; 
-animation-delay: 0;
-animation-direction: alternate;
-animation-iteration-count: infinite;
-animation-fill-mode: none;
-animation-play-state: running;*/
-}
-
-#container2:hover {
-    background-image: url("newt.jpeg");;
-      background-repeat: repeat;
-    background-size: cover;
-    cursor: pointer;
-}
-
-/*@keyframes stretch {
-  0% {
-    transform: scale(.3);
-    background-color: red;
-    border-radius: 100%;
+    0% {opacity: 0;}
+    100%{ opacity: 1;}
   }
-  50% {
-    background-color: orange;
-  }
-  100% {
-    transform: scale(1.5);
-    background-color: yellow;
-  }*/
 
-.Ncontainer #container3 {
-
-padding-top: 40px;
-width: 250px;
-height: 210px;
-padding-bottom: 40px;
-border:  solid;
-border-color: transparent;
-border-radius: 40px;
-overflow: hidden;
-
-transition-property: all;
-transition-duration: 800ms;
-transition-timing-function: ease-in-out;
-transition-delay:  0;
-
-animation-name: opacity;
-animation-duration: 1s;
-animation-timing-function: ease-in-out;
-animation-delay: 1.5s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both; 
-/*
-animation-name: scale;
-animation-duration: 2s;
-animation-timing-function: ease-in-out;
-animation-delay: 2s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both;  */}
-
-#container3:hover {
-    background-image: url("noodles2.jpeg");
-      background-repeat: repeat;
-    background-size: cover;
-    cursor: pointer;
+html{
+    margin: 0;
+    background-color: tomato;
+}
+.button{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    background-color: black;
+    color: tomato;
+    font-style: strong;
+    
 }
 
-.Ncontainer #container4 {
-
-padding-top: 40px;
-width: 250px;
-height: 210px;
-padding-bottom: 40px;
-border:  solid;
-border-color: transparent;
-border-radius: 40px;
-overflow: hidden;
-
-transition-property: all;
-transition-duration: 800ms;
-transition-timing-function: ease-in-out;
-transition-delay:  0;
-
-animation-name: opacity;
-animation-duration: 1s;
-animation-timing-function: ease-in-out;
-animation-delay: 1.5s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both; 
-/*animation-name: scale;
-animation-duration: 2s;
-animation-timing-function: ease-in-out;
-animation-delay: 3s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both;  */}
-
-#container4:hover {
-    background-image: url("neighborhood.webp");
-      background-repeat: repeat;
-    background-size: cover;
-    cursor: pointer;
-
+#menu{
+float:none;
+position:fixed;
+margin: 1vw;
+color: white;
+font-family: 'AUTHENTIC Sans', Arial;
+line-height: 2;
+width: 100vw;
+align-items: right;
 }
 
-.Ncontainer #container5 {
-
-padding-top: 40px;
-width: 240px;
-height: 210px;
-padding-bottom: 40px;
-border:  solid;
-border-color: transparent;
-border-radius: 40px;
-overflow: hidden;
-
-transition-property: all;
-transition-duration: 800ms;
-transition-timing-function: ease-in-out;
-transition-delay:  0;
-
-animation-name: opacity;
-animation-duration: 1s;
-animation-timing-function: ease-in-out;
-animation-delay: 1.5s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both; 
-
-/*animation-name: scale;
-animation-duration: 2s;
-animation-timing-function: ease-in-out;
-animation-delay: 4s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-play-state: running;
-animation-fill-mode: both;  */}
-
-#container5:hover {
-    background-image: url("nuts.jpeg");
-    background-repeat: repeat;
-    background-size: cover;
-    cursor: pointer;
+#title{
+    margin-top: 20vh;
+    position:fixed;
+    text-align: center;
+    width:100vw;
+    font-family: 'AUTHENTIC Sans', Arial;
+    font-size: 40px;
+    font-style: italic;
 }
+#iconcontainer{
+margin-top: 30vh;
+float:left;
+width: 100vw;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.icon {
+
+    padding-top: 40px;
+    width: 250px;
+    height: 210px;
+    padding-bottom: 40px;
+    border:  solid;
+    border-color: transparent;
+    border-radius: 40px;
+    overflow: hidden;
+    display: inline-block;
+    transform: scale(.8);
+    
+    transition-property: all;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay:  0;
+    
+    animation-name: opacity;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: both; 
+    }
+    #nascar.icon:hover {
+        background-image: url("nascar.jpeg");
+          background-repeat: repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #newt.icon:hover {
+        background-image: url("newt.jpeg");
+          background-repeat: repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #noodles.icon:hover {
+        background-image: url("noodles.jpeg");
+          background-repeat: repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #neighborhood.icon:hover {
+        background-image: url("neighborhood.webp");
+          background-repeat: repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #nuts.icon:hover {
+        background-image: url("nuts.jpeg");
+          background-repeat: repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+
 
 
 .shape1 {
-  width: 40px;
-  height: 200px;
-  background: white;
-}
-
-.shape2 {
-  width: 40px;
-  height: 200px;
-  background: white;
-  transform: translate(100px);
-}
-
-.triangle-up {
-  background: transparent;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 60px solid white;
-  transform: translate(-100px);
-}
-
-.triangle-up2 {
-  background: transparent;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 60px solid white;
-  transform: translate(-17px);
-}
-
-.triangle-down {
-  background: transparent;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 60px solid white;
-  transform: translate(-52px, -205px);
-}
-
-.triangle-down2 {
-  background: transparent;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 60px solid white;
-  transform: translate(28px, -205px);
-}
-
-.shape3 {
-  width: 220px;
-  height: 8px;
-  background: white;
-  transform: translateX(-10px)
-             translateY(-180px)
-             rotate(56deg);
-}
-
-
-
-
+    width: 40px;
+    height: 200px;
+    background: white;
+    transform: translate(20px);
+  }
   
+  .shape2 {
+    width: 40px;
+    height: 200px;
+    background: white;
+    transform: translate(190px, -200px);
+  }
+  
+  .triangle-up {
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid white;
+    transform: translate(10px,-250px);
+  }
+  
+  .triangle-up2 {
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid white;
+    transform: translate(180px,-310px);
+  }
+  
+  .triangle-down {
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 60px solid white;
+    transform: translate(10px, -530px);
+  }
+  
+  .triangle-down2 {
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 60px solid white;
+    transform: translate(180px, -590px);
+  }
+  
+  .shape3 {
+    width: 240px;
+    height: 8px;
+    background: white;
+    transform: translateX(5px)
+               translateY(-540px)
+               rotate(56deg);
+  }
