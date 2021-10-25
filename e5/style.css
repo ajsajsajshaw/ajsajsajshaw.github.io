@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'AUTHENTIC Sans';
-    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
-         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @keyframes opacity {
     0% {opacity: 0;}
     100%{ opacity: 1;}
@@ -23,7 +17,6 @@ html{
     display: inline-block;
     background-color: black;
     color: tomato;
-    font-style: strong;
     
 }
 
@@ -32,7 +25,8 @@ float:none;
 position:fixed;
 margin: 1vw;
 color: white;
-font-family: 'AUTHENTIC Sans', Arial;
+font-family: Arial, Helvetica, sans-serif;
+font-style: strong;
 line-height: 2;
 width: 100vw;
 align-items: right;
@@ -43,7 +37,7 @@ align-items: right;
     position:fixed;
     text-align: center;
     width:100vw;
-    font-family: 'AUTHENTIC Sans', Arial;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: italic;
 }
