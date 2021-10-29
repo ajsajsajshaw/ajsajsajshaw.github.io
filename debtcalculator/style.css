@@ -1,0 +1,108 @@
+html{
+    background-color:tomato;
+}
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
+         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container1{
+margin-top: 20vh;
+margin-left: 10vw;
+margin-right: 10vw;
+margin-bottom: 20vh;
+width: 40vw;
+position:fixed;
+}
+
+#container2{
+    margin-left: 65vw;
+    margin-top: 20vh;
+    width: 20vw;
+    height: 60vh;
+    background-color: tomato;
+    float: left;
+
+    
+}
+h1{
+    color: yellow;
+    font-family: 'AUTHENTIC Sans', Arial;
+font-weight: 80;
+font-size: 157px;
+line-height: 1;
+margin: 0;
+
+
+}
+
+h2{
+    color: black;
+    font-family: 'AUTHENTIC Sans', Arial;
+font-weight: 80;
+font-size: 36px;
+line-height: 1;
+margin: 0;
+
+
+}
+
+#iconcontainer{
+    margin-top: 40px;
+    background: transparent;
+    display: inline-block;
+    margin-left: -9px;
+
+
+}
+
+#shape{
+    background: yellow;
+    display: inline-block;
+    color: black;
+    font-family: 'AUTHENTIC Sans', Arial;
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    margin: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+
+
+}
+
+#darkmodebutton{
+    background-color: black;
+    color: yellow;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'AUTHENTIC Sans', Arial;
+}
+
+/*	DARK MODE STYLES GO HERE */
+
+html.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+html.darkmode #container2{
+	background: black;
+}
+html.darkmode h2{
+    color: yellow;
+}
