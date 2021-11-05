@@ -59,7 +59,7 @@ margin: 0;
 
 }
 
-#shape{
+.shape{
     background: yellow;
     display: inline-block;
     color: black;
@@ -76,6 +76,21 @@ margin: 0;
 
 
 
+}
+#project2{
+    background: yellow;
+    display: inline-block;
+    color: black;
+    font-family: 'AUTHENTIC Sans', Arial;
+    font-size: 14px;
+    width: 80px;
+    height: 15px;
+    padding: 4px;
+    margin: 9px;
+    margin-top:22px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 #darkmodebutton{
