@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+}
+body{ background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    border: white 1px solid;
+
+}
+p{
+    padding: 10px;
+    margin: 0;
+
+}
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
+         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+font-size: 30px;
+text-transform: uppercase;
+line-height: 1.1;
+}
+span{
+    font-weight: 600;
+    font-style: italic;
+}
+h2{ 
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.bubble{
+    background-color: black;
+    border: 3px white solid;
+}
+#introduction{
+    position: fixed;
+    top:40vh;
+    z-index: 100;
+    width: 100vw;  
+    display: flex;
+    padding: 25px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h3{
+    font-size: 36px;
+}
+#left{
+    font-size: 24px;
+    width: 50vw;
+}
+#right{
+    width: 50vw;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.columnwindow{
+    width: 16.66vw;
+    height: 100vh;
+    background-color:transparent;
+    display: inline-block;
+    position: fixed; */
+}
+#window1{ 
+    left: 0px;
+    right: 0px; 
+    animation: scroll 120s linear infinite;
+}
+#window2{ 
+    left: 16.66vw;
+    right: 0px;
+    position: fixed;
+    animation: scrollreverse 60s linear infinite;
+}
+#window3{ 
+    left: 33.33vw;
+    right: 0px;
+    position: fixed;
+    animation: scroll 90s linear infinite;
+}
+#window4{ 
+    left: 50vw;
+    right: 0px;
+    position: fixed;
+    animation: scrollreverse 30s linear infinite;
+}
+#window5{ 
+    left: 66.66vw;
+    right: 0px;
+    position: fixed;
+    animation: scroll 150s linear infinite;
+}
+#window6{ 
+    left: 83.33vw;
+    right: 0px;
+    position: fixed;
+    animation: scrollreverse 45s linear infinite;
+}
+
+.loaninfo{
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity .3s ease-in-out, background .3s ease-in;
+    position: absolute;
+    z-index: 100;
+    
+
+}
+
+.loan{
+    width: 15.5vw;
+    height: 200px;
+    margin: 1vw;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+
+
+#loan1{ 
+    height: 500px;
+    background-color: rgb(0, 208, 158);
+        /* transition: 0.5s; */
+    
+}
+/* #loan1:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 55vh;
+    float: left;
+    visibility: visible;
+} */
+#loan1:hover{
+    background-color: rgb(0, 146, 112);
+}
+
+
+
+#loan2{
+    background-color:rgb(101, 125, 214);
+    height: 300px;
+}
+/* #loan2:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 70vh;
+    float: left;
+    visibility: visible;
+} */
+#loan2:hover{
+    background-color: rgb(66, 89, 172);
+}
+
+
+#loan3{ 
+    height: 350px;
+    background-color: rgb(227, 81, 81);
+}
+/* #loan3:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 10vh;
+    float: left;
+    visibility: visible;
+} */
+#loan3:hover{
+    background-color: rgb(175, 61, 61);
+}
+
+
+#loan4{ 
+    height: 200px;
+    background-color: rgb(0, 208, 158);
+}
+/* #loan4:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 20vh;
+    float: left;
+    visibility: visible;
+} */
+#loan4:hover{
+    background-color: rgb(0, 146, 112);
+}
+
+
+#loan5{
+    background-color:rgb(101, 125, 214);
+    height: 450px;
+}
+/* #loan5:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 30vh;
+    float: left;
+    visibility: visible;
+} */
+#loan5:hover{
+    background-color: rgb(66, 89, 172);
+}
+#loan6{ 
+    height: 200px;
+    background-color: rgb(227, 81, 81);
+}
+
+/* #loan6:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 50vh;
+    float: left;
+    visibility: visible;
+} */
+#loan6:hover{
+    background-color: rgb(175, 61, 61);
+}
+#loan7{ 
+    height: 550px;
+    background-color: rgb(227, 81, 81);
+}
+/* #loan7:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 40vh;
+    float: left;
+    visibility: visible;
+} */
+#loan7:hover{
+    background-color: rgb(175, 61, 61);
+}
+#loan8{
+    background-color:rgb(101, 125, 214);
+    height: 550px;
+}
+/* #loan8:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 60vh;
+    float: left;
+    visibility: visible;
+} */
+#loan8:hover{
+    background-color: rgb(66, 89, 172);
+}
+
+@media screen and (min-width: 1000px) {
+    .columnwindow{
+        width: 10vw;
+        height: 100vh;
+        background-color:transparent;
+        display: inline-block;
+        position: fixed;
+    }
+    #window1{ 
+        left: 20vw;
+        right: 0px; 
+        position: fixed;
+    }
+    #window2{ 
+        left: 30vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window3{ 
+        left: 40vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window4{ 
+        left: 50vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window5{ 
+        left: 60vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window6{ 
+        left: 70vw;
+        right: 0px;
+        position: fixed;
+    }
+    .column {
+        position:relative;
+        width: 10vw;
+        background-color:transparent;
+        display: inline-block;
+        overflow: auto;
+    }
+    .loan{
+        width: 9vw;
+    }
+}
+
+
+@keyframes scroll{
+    0% { top: -0px; }
+    50% { top: -2000px; }
+    100% { top: -0px; }
+      }
+    
+    @keyframes scrollreverse{
+        0% { top: -2000px; }
+        50% { top: 0px; }
+        100% { top: -2000px; }
+          }
+    
