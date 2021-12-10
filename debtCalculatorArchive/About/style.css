@@ -26,6 +26,16 @@ p{
     font-weight: normal;
     font-style: normal;
 }
+#navigation{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    z-index: 100;
+    position: fixed;
+    padding: 20px;
+    border: white solid 1px;
+    margin: 20px;
+}
 
 h1{
 font-size: 30px;
