@@ -2,13 +2,21 @@
 
 
 *{
-    margin: 0;
     padding: 0;
+    margin:0;
 }
-body{ background-color: white;
+body{ background-color: black;
     font-family: 'IBM Plex Mono', monospace;
-    font-weight: 100;
-    font-size: 12px;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    border: white 1px solid;
+
+}
+p{
+    padding: 10px;
+    margin: 0;
 
 }
 @font-face {
@@ -18,222 +26,432 @@ body{ background-color: white;
     font-weight: normal;
     font-style: normal;
 }
-#visualkey{
-    height: 20vh;
-    width: 40vw;
-    position: fixed;
-    background-color: transparent;
-    float: left;
-}
-.colorbox{
-    width: 40px;
-    height: 40px; 
-    background-color: rgb(227, 81, 81);;
-    margin: 10px;
-    margin-left:8vw;
-}
-.keytextbox{
-    width: 20vw;
-    height: 40px; 
-    margin-left:13vw;
-    float: left;
-
-}
-#leftbox{
-    height: 100vh;
-    width: 40vw;
-    position: fixed;
-    background-color: black;
-    color: white;
-    float: left;
-    box-shadow: 0px -2px 30px black;
-}
-#redtextbox{
-    background-color:transparent;
-}
-#scale{
-    height: 5400px;
-    width: 1px;
-    background-color: black;
-    margin-left:10vw;
-    float: left;
-}
-#unit{
-    height: 49px;
-    width: 1vw;
-    background-color: transparent;
-    float: left; }
-
-#longline{
-    height: 1px;
-    width: 1vw;
-    background-color: black;
-    float: left; 
-
-}
 
 h1{
-    font-weight: bold;
-    font-size: 12px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 700;
-    letter-spacing: 4px;
-    text-transform:uppercase;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 1vw;
-}
-
-h2{
- margin-top: -10px;
- font-size: 14px;
- font-weight: normal;
- float: right;
- transform: translateX(-2vw);
- font-family: 'IBM Plex Mono', monospace;
- font-weight: 00;
- letter-spacing: 2px;
-
-}
-h3{
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 100;
-    font-size: 30px;
-    margin-left: 1vw;
-
+font-size: 30px;
+text-transform: uppercase;
+line-height: 1.1;
 }
 span{
-font-weight: 700;
+    /* font-size: ; */
+    font-weight: 600;
+    font-style: italic;
 }
-p{
-    margin-left: 1vw;
-    margin-top: 1vh;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 100;
+h2{ 
     font-size: 14px;
-    line-height: 1.8;
-    color: black;
-    font-weight: 400;
-
+    font-weight: 300;
 }
 
-#rightbox{
-    height: 100vh;
-    width: 60vw;
-    color: black;
-    float: right;
-    font-size: 100px;
-    padding-top:10vh;
+.bubble{
+    background-color: black;
+    border: 1px white solid;
 }
-#header{
-    height: 5vh;
+#introduction{
+    position: fixed;
+    top:40vh;
+    z-index: 100;
+    width: 100vw;  
+    display: flex;
+    padding: 25px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about{ 
+    position: fixed;
+    top:15vh;
+    z-index: 100;
+    left: 15vw;
+    right: 15vw;
+    display: flex;
+    padding: 25px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+#about{ 
+    position: fixed;
+    top:15vh;
+    z-index: 100;
+    left: 15vw;
+    right: 15vw;
+    display: flex;
+    padding: 25px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+#aboutclick:hover {
+    color:rgb(119, 119, 119);
+}
+
+#aboutclick:hover + #about {
     display: block;
-    padding-top:3vh;
-    padding-left: 3vw;
-
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 100;
 }
-.ageboxes{
-    height: 20px;
-    width: 30px;
-    display: inline-block;
-    border: white 1px solid;
-    
-}
-.textboxes{
-    height: 20px;
-    display: inline-block;
-    
-}
-#old{
-    border: none;
-}
-#calculation{
-    margin: 50px;
-    margin-top: 10vh;
-    font-size: 30px;
-    margin-left: 8vw;
-    margin-right: 8vw;
-        font-family: 'IBM Plex Mono', monospace;
-    font-weight: 100;
-    font-weight: lighter;
-    line-height: 2;
-
-}
-#totalage{
-    border: white 1px solid;
-    display: inline-block;
-    line-height: 1;
-}
-#totaldebt{
-    border: white 1px solid;
-    display: inline-block;
-    line-height: 1;
-}
-.loans{
-    width:30vw;
-
-    height:200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-    padding: 10px;
-    font-family:Helvetica, sans-serif;
-    border-radius: 20px;
-
-
-}
-.subsidizedloan{
-    background-color: rgb(227, 81, 81);
+a{
     color: white;
 }
 
-#AA{
-    height: 350px;
+h3{
+    font-size: 36px;
 }
-#AB{
+#left{
+    font-size: 24px;
+    width: 50vw;
+}
+#right{
+    width: 50vw;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 2;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.columnwindow{
+    width: 16.66vw;
+    height: 100vh;
+    background-color:transparent;
+    display: inline-block;
+    position: fixed; */
+}
+#window1{ 
+    left: 0px;
+    right: 0px; 
+    animation: scroll 120s linear infinite;
+}
+#window2{ 
+    left: 16.66vw;
+    right: 0px;
+    position: fixed;
+    animation: scrollreverse 60s linear infinite;
+}
+#window3{ 
+    left: 33.33vw;
+    right: 0px;
+    position: fixed;
+    animation: scroll 90s linear infinite;
+}
+#window4{ 
+    left: 50vw;
+    right: 0px;
+    position: fixed;
+    animation: scrollreverse 30s linear infinite;
+}
+#window5{ 
+    left: 66.66vw;
+    right: 0px;
+    position: fixed;
+    animation: scroll 150s linear infinite;
+}
+#window6{ 
+    left: 83.33vw;
+    right: 0px;
+    position: fixed;
+    animation: scrollreverse 45s linear infinite;
+}
+
+.loaninfo{
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity .3s ease-in-out, background .3s ease-in;
+    position: absolute;
+    z-index: 100;
+    
+
+}
+
+.loan{
+    width: 15.5vw;
     height: 200px;
+    margin: 1vw;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    
 }
-#AC{
+
+
+
+#loan1{ 
+    height: 500px;
+    background-color: rgb(0, 208, 158);
+        /* transition: 0.5s; */
+    
+}
+/* #loan1:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 55vh;
+    float: left;
+    visibility: visible;
+} */
+#loan1:hover{
+    background-color: rgb(0, 146, 112);
+}
+
+
+
+#loan2{
+    background-color:rgb(101, 125, 214);
+    height: 300px;
+}
+/* #loan2:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 70vh;
+    float: left;
+    visibility: visible;
+} */
+#loan2:hover{
+    background-color: rgb(66, 89, 172);
+}
+
+
+#loan3{ 
+    height: 350px;
+    background-color: rgb(227, 81, 81);
+}
+/* #loan3:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 10vh;
+    float: left;
+    visibility: visible;
+} */
+#loan3:hover{
+    background-color: rgb(175, 61, 61);
+}
+
+
+#loan4{ 
+    height: 200px;
+    background-color: rgb(0, 208, 158);
+}
+/* #loan4:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 20vh;
+    float: left;
+    visibility: visible;
+} */
+#loan4:hover{
+    background-color: rgb(0, 146, 112);
+}
+
+
+#loan5{
+    background-color:rgb(101, 125, 214);
     height: 450px;
 }
-#AD{ height: 200px;
+/* #loan5:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 30vh;
+    float: left;
+    visibility: visible;
+} */
+#loan5:hover{
+    background-color: rgb(66, 89, 172);
+}
+#loan6{ 
+    height: 200px;
+    background-color: rgb(227, 81, 81);
 }
 
-#AE
-{height:550px;}
-
-#AF{
-    height: 200px;}
-
-#AG{
+/* #loan6:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 50vh;
+    float: left;
+    visibility: visible;
+} */
+#loan6:hover{
+    background-color: rgb(175, 61, 61);
+}
+#loan7{ 
+    height: 550px;
+    background-color: rgb(227, 81, 81);
+}
+/* #loan7:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 40vh;
+    float: left;
+    visibility: visible;
+} */
+#loan7:hover{
+    background-color: rgb(175, 61, 61);
+}
+#loan8{
+    background-color:rgb(101, 125, 214);
     height: 550px;
 }
-#AH{ height:200px;}
-
-.unsubsidizedloan{
-    background-color:rgb(0, 208, 158);
-    height:200px;
-    color: white;
-}
-.privateloan{
-    background-color:rgb(101, 125, 214);
-    height: 911px;
-    COLOR:WHITE;
-}
-#green{
-    background-color:rgb(0, 208, 158);
-}
-#blue{
-    background-color:rgb(101, 125, 214);
-
-}
-#mefa1{
-    height: 1627.2px;
-}
-#clock{
-    height: 10vh;
-    color: white;
+/* #loan8:hover + .loaninfo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    color:black;
+    padding: 30px;
+    height: 130px;
+    position: fixed;
+    left: 5vw;
+    top: 60vh;
+    float: left;
+    visibility: visible;
+} */
+#loan8:hover{
+    background-color: rgb(66, 89, 172);
 }
 
+@media screen and (min-width: 1000px) {
+    .columnwindow{
+        width: 10vw;
+        height: 100vh;
+        background-color:transparent;
+        display: inline-block;
+        position: fixed;
+    }
+    #window1{ 
+        left: 20vw;
+        right: 0px; 
+        position: fixed;
+    }
+    #window2{ 
+        left: 30vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window3{ 
+        left: 40vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window4{ 
+        left: 50vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window5{ 
+        left: 60vw;
+        right: 0px;
+        position: fixed;
+    }
+    #window6{ 
+        left: 70vw;
+        right: 0px;
+        position: fixed;
+    }
+    .column {
+        position:relative;
+        width: 10vw;
+        background-color:transparent;
+        display: inline-block;
+        overflow: auto;
+    }
+    .loan{
+        width: 9vw;
+    }
+}
+
+
+@keyframes scroll{
+    0% { top: -0px; }
+    50% { top: -2000px; }
+    100% { top: -0px; }
+      }
+    
+    @keyframes scrollreverse{
+        0% { top: -2000px; }
+        50% { top: 0px; }
+        100% { top: -2000px; }
+          }
+    
