@@ -14,6 +14,22 @@ body{ background-color: black;
     border: white 1px solid;
 
 }
+#navigation{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    z-index: 100;
+    position: fixed;
+    padding: 20px;
+    border: white solid 1px;
+    margin: 20px;
+}
+a{
+    
+    font-weight: 400;
+    color: white;
+
+}
 p{
     padding: 10px;
     margin: 0;
